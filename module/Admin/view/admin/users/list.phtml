@@ -1,0 +1,37 @@
+
+
+<h2 class="sub-header">Section title</h2>
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+            <th>Header</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        <?php
+
+        foreach($this->list as $user){
+            echo '<tr>';
+            //echo '<td>'.$user->getName().'</td>';
+            echo '</tr>';
+        }
+        var_dump($this->list);
+        ?>
+
+        <tr>
+            <td>1,001</td>
+            <td>Lorem</td>
+            <td>ipsum</td>
+            <td>dolor</td>
+            <td>sit</td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
